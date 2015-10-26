@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">MyTest</string>
+  <string name="prev_button_text">Prev</string>
+  <string name="next_button_text">Next</string>
+  <string name="save_button_text">Save</string>
+  <string name="title_activity_feedback_detail_screen">FeedbackDetailScreen</string>
+</resources>

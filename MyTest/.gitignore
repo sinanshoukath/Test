@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/gradle.xml
+/.idea/inspectionProfiles
+/.idea/runConfigurations.xml
+/facebook/facebook.iml
+/app/app.iml
+.DS_Store
+/build
+Elsa.iml
