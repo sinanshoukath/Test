@@ -1,4 +1,4 @@
-package com.sinan.mytest.main;
+package com.sinan.mytest.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.sinan.mytest.R;
+import com.sinan.mytest.models.Feedback;
 
 import java.text.DecimalFormat;
 import java.util.List;

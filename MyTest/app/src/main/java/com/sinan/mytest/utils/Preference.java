@@ -1,10 +1,11 @@
-package com.sinan.mytest.main;
+package com.sinan.mytest.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.sinan.mytest.models.Feedback;
 
 import java.lang.reflect.Type;
 import java.util.List;

@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.sinan.mytest.R;
+import com.sinan.mytest.models.Feedback;
+import com.sinan.mytest.utils.FeedbackPagerAdapter;
+import com.sinan.mytest.utils.Preference;
 
 import java.util.List;
 

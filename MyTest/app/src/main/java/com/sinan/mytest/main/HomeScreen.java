@@ -9,6 +9,12 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 
 import com.sinan.mytest.R;
+import com.sinan.mytest.client.ClientConfig;
+import com.sinan.mytest.client.ClientInterface;
+import com.sinan.mytest.models.Feedback;
+import com.sinan.mytest.models.FeedbackResults;
+import com.sinan.mytest.utils.FeedbackListAdapter;
+import com.sinan.mytest.utils.Preference;
 
 import java.util.List;
 
@@ -21,7 +27,7 @@ import retrofit.client.Response;
  *
  * @author Sinan Shoukath
  */
-public class MainActivity extends Activity {
+public class HomeScreen extends Activity {
   private ProgressBar progressBar;
   private Preference prefs;
 
@@ -50,14 +56,14 @@ public class MainActivity extends Activity {
 
   private void populateItems(List<Feedback> feedbacks) {
     ListView feedbacksList = (ListView) findViewById(R.id.feedbacks_list);
-    FeedbackListAdapter adapter = new FeedbackListAdapter(MainActivity.this, R.layout.feedback_list_item, feedbacks);
+    FeedbackListAdapter adapter = new FeedbackListAdapter(HomeScreen.this, R.layout.feedback_list_item, feedbacks);
     feedbacksList.setAdapter(adapter);
     progressBar.setVisibility(View.GONE);
     feedbacksList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
       @Override public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent intent = new Intent(MainActivity.this, FeedbackDetailScreen.class);
+        Intent intent = new Intent(HomeScreen.this, FeedbackDetailScreen.class);
         intent.putExtra("position", position);
-        MainActivity.this.startActivity(intent);
+        HomeScreen.this.startActivity(intent);
       }
     });
   }

@@ -1,4 +1,7 @@
-package com.sinan.mytest.main;
+package com.sinan.mytest.client;
+
+import com.sinan.mytest.models.Feedback;
+import com.sinan.mytest.models.FeedbackResults;
 
 import retrofit.Callback;
 import retrofit.http.Body;
