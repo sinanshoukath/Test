@@ -1,0 +1,31 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.sinan.mytest.main.FeedbackDetailScreen">
+  <android.support.v4.view.ViewPager
+    android:id="@+id/feedback_pager"
+    android:layout_above="@+id/prev_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/prev_button_text"
+    android:id="@+id/prev_button"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"/>
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/next_button_text"
+    android:id="@+id/next_button"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"/>
+</RelativeLayout>
