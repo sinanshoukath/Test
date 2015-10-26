@@ -1,6 +1,7 @@
-package com.sinan.mytest.main;
+package com.sinan.mytest.client;
 
 import com.google.gson.Gson;
+import com.sinan.mytest.utils.AppConfig;
 import com.squareup.okhttp.OkHttpClient;
 
 import retrofit.RequestInterceptor;

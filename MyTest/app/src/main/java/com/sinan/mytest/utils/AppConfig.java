@@ -1,4 +1,4 @@
-package com.sinan.mytest.main;
+package com.sinan.mytest.utils;
 
 /**
  * Configuration utils for the app.

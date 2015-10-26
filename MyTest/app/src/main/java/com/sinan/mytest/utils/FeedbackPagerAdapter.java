@@ -1,4 +1,4 @@
-package com.sinan.mytest.main;
+package com.sinan.mytest.utils;
 
 import android.app.Activity;
 import android.support.v4.view.PagerAdapter;
@@ -13,6 +13,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.sinan.mytest.R;
+import com.sinan.mytest.client.ClientConfig;
+import com.sinan.mytest.client.ClientInterface;
+import com.sinan.mytest.models.Feedback;
 
 import java.util.List;
 
